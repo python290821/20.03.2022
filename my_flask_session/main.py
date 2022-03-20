@@ -30,7 +30,4 @@ def process_form():
     # return f'GOT it <br /> {str(request.form)}'
     return f'Your name is {request.form["txt_name"]}'
 
-    #jwt
-    #session['jwt'] = token
-
 app.run()
